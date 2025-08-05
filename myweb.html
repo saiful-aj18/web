@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+ 
+        .nav-items {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            text-transform: uppercase;
+            background-color:aquamarine;
+        }
+ 
+        .nav-items li:hover {
+            border-bottom: 1px solid orange;
+            cursor: pointer;
+            float: left;
+ 
+        }
+ 
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+ 
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+ 
+        .banner-text {
+            width: 40vw;
+        }
+ 
+        .banner-text h1 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+ 
+        .banner-text p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+ 
+        .banner-text span {
+            color: orange;
+        }
+ 
+        .banner-text button {
+            padding: 10px 12px;
+            border: 0;
+            background: #000;
+            color: white;
+            border-radius: 12px;
+            font-size: 17px;
+        }
+ 
+        .mypic {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+
+        .map {
+            width: 200px;
+            height: 200px;
+            border: 0;
+            margin-left: 100px;
+            margin-top: 40px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="nav">
+        <img class="logo" src="https://puc.ac.bd/Content/new-template-assets/images/puc_logo.png" alt="">
+ 
+        <ul class="nav-items">
+            <li><a href="myweb.html">Home</a></li>
+            <li><a href="study.html">Study</a></li>
+            <li><a href="saifulshakib38@gmail.com">Contact</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+    <section class="banner">
+        <div class="banner-text">
+            <h1>Hello, I'm <span>Saiful Islam</span></h1>
+            <p>a passionate and curious individual currently pursuing my education in Computer Science and Engineering at Premier University, Bangladesh. I’m deeply interested in technology, programming, and how innovation can solve real-world problems.
+
+I'm working towards a future where I can contribute to fields like Cybersecurity, Software Development, or Data Science. My journey so far has involved learning new coding skills, building small projects, and preparing to study abroad to enhance my academic and career opportunities.</p>
+            <button>Read More</button>
+        </div>
+        <img class="mypic" src="img.jpg" alt="">
+    </section>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58926.58130085132!2d91.63920386471688!3d22.61978607194248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37532d51490ae6f9%3A0x98072aef33d924c2!2sSitakund!5e0!3m2!1sen!2sbd!4v1754389670751!5m2!1sen!2sbd" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</body>
+ 
+</html>
