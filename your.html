@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Submission Form</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+        <label for="phn">Phone:</label>
+        <select id="countryCode" name="countryCode" required>
+                <option value="+880">+880</option>
+                <option value="+44">+44</option>
+                <option value="+91">+917</option>
+                <option value="+1">+1</option>
+                <option value="+61">+61</option>
+            </select>
+        <input type="Phone" id="phn" name="phone" placeholder="1844000034" required>
+        <br>
+        Gender:
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <label for="city">Nearest City:</label>
+        <select id="city" name="city" required>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Barisal">Barisal</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Comilla">Comilla</option>
+            <option value="Mymensingh">Mymensingh</option>
+            <option value="Khulna">Khulna</option>
+        </select>
+        <br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea>
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" required>
+        <br>
+        <button type="submit" value="send" >Submit </button>
+        <button type="reset" value="reset">Reset</button>
+    </form>
+</body>
+</html>
